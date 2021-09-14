@@ -1,0 +1,23 @@
+*{
+    margin: 0;
+    padding:0;
+  }
+  #root{
+    margin: 0;
+    padding:0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+  }
+  @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700;800&display=swap');
+  #header{
+      background-image: url(http://via.placeholder.com/1920x650);
+      background-size: contain;
+  }
+  @media only screen and (max-device-width:600px){
+      #header{
+        background-image: url(http://via.placeholder.com/600x600);
+      }
+    
+  }
